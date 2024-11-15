@@ -1,0 +1,15 @@
+[package]
+name = "rental_service"
+version = "1.0.0"
+authors = []
+
+[addresses]
+rental_service = '0x773daed9e9ce6df66b6cdc332fab452e8f342efc774eb3fea42eb1562b918c2e'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
